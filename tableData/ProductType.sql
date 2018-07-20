@@ -1,0 +1,3 @@
+INSERT INTO "ProductType" ("createdBy", "updatedBy", "status", "productTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 1, 'Product', '0001-1-1 00:00:00', '0001-1-2 22:30:16');
+INSERT INTO "ProductType" ("createdBy", "updatedBy", "status", "productTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 2, 'Service', '0001-1-2 22:37:16', '0001-1-2 22:37:34');
+INSERT INTO "ProductType" ("createdBy", "updatedBy", "status", "productTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 3, 'Software', '0001-1-2 22:08:27', '0001-1-2 22:08:45');

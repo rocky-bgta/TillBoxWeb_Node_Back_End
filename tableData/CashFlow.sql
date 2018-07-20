@@ -1,0 +1,3 @@
+INSERT INTO "CashFlow" ("createdBy", "updatedBy", "status", "cashFlowID", "cashFlowName", "createdDate", "updatedDate") VALUES (NULL, NULL, 1, 1, 'Operating', '2017-11-13 20:49:00', '2017-11-13 20:49:00');
+INSERT INTO "CashFlow" ("createdBy", "updatedBy", "status", "cashFlowID", "cashFlowName", "createdDate", "updatedDate") VALUES (NULL, NULL, 1, 2, 'Investing', '2017-11-13 20:49:00', '2017-11-13 20:49:00');
+INSERT INTO "CashFlow" ("createdBy", "updatedBy", "status", "cashFlowID", "cashFlowName", "createdDate", "updatedDate") VALUES (NULL, NULL, 1, 3, 'Financing', '2017-11-13 20:49:00', '2017-11-13 20:49:00');

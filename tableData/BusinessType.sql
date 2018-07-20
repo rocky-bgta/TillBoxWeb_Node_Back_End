@@ -1,0 +1,7 @@
+INSERT INTO "BusinessType" ("createdBy", "updatedBy", "status", "businessTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 1, 'Service', '0001-1-2 22:19:27', '0001-1-2 22:19:33');
+INSERT INTO "BusinessType" ("createdBy", "updatedBy", "status", "businessTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 2, 'Agriculture ', '0001-1-2 22:27:14', '0001-1-2 22:27:31');
+INSERT INTO "BusinessType" ("createdBy", "updatedBy", "status", "businessTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 3, 'Construction & Building', '0001-1-2 22:31:02', '0001-1-2 22:31:37');
+INSERT INTO "BusinessType" ("createdBy", "updatedBy", "status", "businessTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 4, 'Manufacturing ', '0001-1-2 22:35:19', '0001-1-2 22:36:28');
+INSERT INTO "BusinessType" ("createdBy", "updatedBy", "status", "businessTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 5, 'Wholesale & Import/Export', '0001-1-2 22:31:02', '0001-1-2 22:31:37');
+INSERT INTO "BusinessType" ("createdBy", "updatedBy", "status", "businessTypeID", "value", "createdDate", "updatedDate") VALUES ('Ramzan', 'Ramzan', 1, 6, 'Non-Profit Organization', '0001-1-2 22:35:19', '0001-1-2 22:36:28');
+SELECT setval('public."BusinessType_businessTypeID_seq"', 6, true);

@@ -1,0 +1,43 @@
+{
+  "name": "auditLog",
+  "version": "0.0.1",
+  "description": "Audit Log Module",
+  "repository": "",
+  "license": "MIT",
+  "main": "index.ts",
+  "scripts": {
+    "npmInstall": "npm install",
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "typescript-rest": "^1.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^4.0.0",
+    "nyc": "^10.3.2",
+    "rimraf": "^2.6.1",
+    "source-map-support": "^0.4.15",
+    "ts-node": "~3.0.6",
+    "typescript": "~2.3.4",
+    "typescript-formatter": "^5.2.0"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "reporter": [
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "instrument": true
+  }
+}
